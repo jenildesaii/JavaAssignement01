@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.yourproject.TableViewController">
+
+    <!-- TableView for displaying game data -->
+    <TableView fx:id="tableView">
+        <columns>
+            <!-- TableColumn for displaying game name -->
+            <TableColumn fx:id="gameNameColumn" text="Game Name"/>
+
+            <!-- TableColumn for displaying aspect -->
+            <TableColumn fx:id="aspectColumn" text="Aspect"/>
+
+            <!-- TableColumn for displaying value -->
+            <TableColumn fx:id="valueColumn" text="Value"/>
+
+            <!-- TableColumn for displaying release date -->
+            <TableColumn fx:id="releaseDateColumn" text="Release Date"/>
+
+            <!-- TableColumn for displaying platforms -->
+            <TableColumn fx:id="platformsColumn" text="Platforms"/>
+        </columns>
+    </TableView>
+</VBox>

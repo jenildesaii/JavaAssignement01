@@ -1,0 +1,104 @@
+/* General root settings */
+.root {
+    -fx-font-family: 'Arial';
+    -fx-background-color: #2b2b2b;
+}
+
+/* Styles for specific series */
+.valorant-series .chart-bar {
+    -fx-bar-fill: red; /* Red color for Valorant */
+}
+
+.pubg-series .chart-bar {
+    -fx-bar-fill: orange; /* Orange color for PUBG */
+}
+
+/* Series-specific legend item symbols */
+.chart-legend-item-symbol.valorant-legend {
+    -fx-background-color: red; /* Red color for Valorant */
+}
+
+.chart-legend-item-symbol.pubg-legend {
+    -fx-background-color: orange; /* Orange color for PUBG */
+}
+
+.chart-title {
+    -fx-font-size: 16pt;
+    -fx-text-fill: #ffffff;
+}
+
+.axis-label {
+    -fx-text-fill: #ffffff;
+}
+
+.chart-horizontal-grid-lines, .chart-vertical-grid-lines {
+    -fx-stroke: #444444;
+}
+
+/* Button styling */
+.button {
+    -fx-background-color: #3a3a3a;
+    -fx-text-fill: white;
+    -fx-border-color: #ff6347;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 10 20;
+    -fx-font-size: 12pt;
+}
+
+.button:hover {
+    -fx-background-color: #444444;
+}
+
+.button:pressed {
+    -fx-background-color: #292929;
+}
+
+/* TableView styling */
+.table-view {
+    -fx-background-color: #333333;
+    -fx-border-color: #ff6347;
+    -fx-border-width: 1;
+}
+
+.table-column-header {
+    -fx-background-color: #444444;
+    -fx-border-color: #ff6347;
+    -fx-border-width: 0 0 1 0;
+    -fx-text-fill: #ff6347;
+    -fx-font-size: 12pt;
+}
+
+.table-row-cell {
+    -fx-background-color: #3a3a3a;
+    -fx-text-fill: #ffffff;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #555555;
+}
+
+/* Scroll bar styling */
+.scroll-bar:vertical .thumb, .scroll-bar:horizontal .thumb {
+    -fx-background-color: #ff6347;
+    -fx-background-radius: 5;
+}
+
+.scroll-bar .track {
+    -fx-background-color: #444444;
+}
+
+/* VBox styling */
+.vbox {
+    -fx-spacing: 10;
+    -fx-padding: 20;
+    -fx-background-color: #2b2b2b;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+}
+
+/* Button container styling */
+.button-container {
+    -fx-alignment: center;
+    -fx-padding: 20;
+}
